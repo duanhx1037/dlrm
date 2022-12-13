@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.716117end all-to-all transfering at1667303781.8731472
+
+bottom mlp time: 0.851815938949585
+emb mlp time: 1.1606299877166748
+interaction mlp time: 0.0006058216094970703
+top mlp time: 0.0013456344604492188
+begin all-to-all transfering at1667303782.477199end all-to-all transfering at1667303782.647235
+
+bottom mlp time: 0.16955780982971191
+emb mlp time: 0.17025113105773926
+interaction mlp time: 0.0003159046173095703
+top mlp time: 0.0027763843536376953
+begin all-to-all transfering at1667304073.688461
+
+end all-to-all transfering at1667304074.5204647
+
+bottom mlp time: 0.6874151229858398
+emb mlp time: 0.8346593379974365
+interaction mlp time: 0.0005092620849609375
+top mlp time: 0.0010750293731689453
+begin all-to-all transfering at1667304075.2827365
+
+end all-to-all transfering at1667304075.3885202
+
+bottom mlp time: 0.1050713062286377
+emb mlp time: 0.10606980323791504
+interaction mlp time: 0.0003218650817871094
+top mlp time: 0.002496480941772461
+begin all-to-all transfering at1667304220.3790174
+
+end all-to-all transfering at1667304221.3708382
+
+bottom mlp time: 0.7623050212860107
+emb mlp time: 0.9950153827667236
+interaction mlp time: 0.0004825592041015625
+top mlp time: 0.0010533332824707031
+begin all-to-all transfering at1667304221.9706771
+
+end all-to-all transfering at1667304222.0817525
+
+bottom mlp time: 0.11043190956115723
+emb mlp time: 0.11135411262512207
+interaction mlp time: 0.0003695487976074219
+top mlp time: 0.010174751281738281
+begin all-to-all transfering at1667304222.6110022
+
+end all-to-all transfering at1667304222.6121848
+
+bottom mlp time: 0.0006093978881835938
+emb mlp time: 0.0013964176177978516
+interaction mlp time: 0.12309455871582031
+top mlp time: 0.0008437633514404297
+begin all-to-all transfering at1667304223.268124
+
+end all-to-all transfering at1667304223.2692597
+
+bottom mlp time: 0.0005762577056884766
+emb mlp time: 0.0013484954833984375
+interaction mlp time: 0.1166536808013916
+top mlp time: 0.0025060176849365234

@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.6473196end all-to-all transfering at1667303781.6767797
+
+bottom mlp time: 0.6634013652801514
+emb mlp time: 1.032226800918579
+interaction mlp time: 0.00058746337890625
+top mlp time: 0.0012178421020507812
+begin all-to-all transfering at1667303782.4682798end all-to-all transfering at1667303782.648181
+
+bottom mlp time: 0.17864990234375
+emb mlp time: 0.18039608001708984
+interaction mlp time: 0.0003790855407714844
+top mlp time: 0.0009546279907226562
+begin all-to-all transfering at1667304073.6574006
+
+end all-to-all transfering at1667304074.528791
+
+bottom mlp time: 0.706434965133667
+emb mlp time: 0.8744351863861084
+interaction mlp time: 0.0005757808685302734
+top mlp time: 0.0011146068572998047
+begin all-to-all transfering at1667304075.2189293
+
+end all-to-all transfering at1667304075.3886366
+
+bottom mlp time: 0.16922426223754883
+emb mlp time: 0.16991186141967773
+interaction mlp time: 0.00029587745666503906
+top mlp time: 0.0009143352508544922
+begin all-to-all transfering at1667304220.3789005
+
+end all-to-all transfering at1667304221.3802025
+
+bottom mlp time: 0.7804546356201172
+emb mlp time: 1.0043230056762695
+interaction mlp time: 0.0005280971527099609
+top mlp time: 0.0012595653533935547
+begin all-to-all transfering at1667304221.9668581
+
+end all-to-all transfering at1667304222.0816047
+
+bottom mlp time: 0.11419105529785156
+emb mlp time: 0.11497187614440918
+interaction mlp time: 0.0003275871276855469
+top mlp time: 0.0011544227600097656
+begin all-to-all transfering at1667304222.6252205
+
+end all-to-all transfering at1667304222.6262496
+
+bottom mlp time: 0.0005810260772705078
+emb mlp time: 0.0012373924255371094
+interaction mlp time: 0.1089632511138916
+top mlp time: 0.0007750988006591797
+begin all-to-all transfering at1667304223.277336
+
+end all-to-all transfering at1667304223.2784376
+
+bottom mlp time: 0.0005664825439453125
+emb mlp time: 0.0013241767883300781
+interaction mlp time: 0.10731220245361328
+top mlp time: 0.0010638236999511719

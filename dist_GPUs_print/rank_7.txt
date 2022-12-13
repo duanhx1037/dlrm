@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.691942end all-to-all transfering at1667303781.8221242
+
+bottom mlp time: 0.7607238292694092
+emb mlp time: 1.132869005203247
+interaction mlp time: 0.0005621910095214844
+top mlp time: 0.001356363296508789
+begin all-to-all transfering at1667303782.4881725end all-to-all transfering at1667303782.648142
+
+bottom mlp time: 0.1592569351196289
+emb mlp time: 0.16026616096496582
+interaction mlp time: 0.0003414154052734375
+top mlp time: 0.002644777297973633
+begin all-to-all transfering at1667304073.641659
+
+end all-to-all transfering at1667304074.613802
+
+bottom mlp time: 0.7614443302154541
+emb mlp time: 0.9756155014038086
+interaction mlp time: 0.0005359649658203125
+top mlp time: 0.0014078617095947266
+begin all-to-all transfering at1667304075.22682
+
+end all-to-all transfering at1667304075.3885798
+
+bottom mlp time: 0.16131114959716797
+emb mlp time: 0.1619412899017334
+interaction mlp time: 0.0002808570861816406
+top mlp time: 0.002858877182006836
+begin all-to-all transfering at1667304220.3913171
+
+end all-to-all transfering at1667304221.4162934
+
+bottom mlp time: 0.7751195430755615
+emb mlp time: 1.0277705192565918
+interaction mlp time: 0.0004799365997314453
+top mlp time: 0.0010640621185302734
+begin all-to-all transfering at1667304222.0015945
+
+end all-to-all transfering at1667304222.081805
+
+bottom mlp time: 0.07948994636535645
+emb mlp time: 0.08046221733093262
+interaction mlp time: 0.0003383159637451172
+top mlp time: 0.010325431823730469
+begin all-to-all transfering at1667304222.6548936
+
+end all-to-all transfering at1667304222.6559124
+
+bottom mlp time: 0.0005605220794677734
+emb mlp time: 0.001210927963256836
+interaction mlp time: 0.07931303977966309
+top mlp time: 0.0007455348968505859
+begin all-to-all transfering at1667304223.2930653
+
+end all-to-all transfering at1667304223.294046
+
+bottom mlp time: 0.0005383491516113281
+emb mlp time: 0.0011632442474365234
+interaction mlp time: 0.09173154830932617
+top mlp time: 0.0017583370208740234

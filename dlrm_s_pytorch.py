@@ -110,6 +110,8 @@ with warnings.catch_warnings():
 
 exc = getattr(builtins, "IOError", "FileNotFoundError")
 
+# add my utility functions
+from my_utils import *
 
 def time_wrap(use_gpu):
     if use_gpu:
@@ -539,6 +541,8 @@ class DLRM_Net(nn.Module):
                 "ERROR: corrupted model input detected in distributed_forward call"
             )
 
+        emb_start = time.time() # recorder
+
         # embeddings
         with record_function("DLRM embedding forward"):
             ly = self.apply_emb(lS_o, lS_i, self.emb_l, self.v_W_l)
@@ -551,27 +555,44 @@ class DLRM_Net(nn.Module):
         if len(self.emb_l) != len(ly):
             sys.exit("ERROR: corrupted intermediate result in distributed_forward call")
 
+        write2rankfile("begin all-to-all transfering at" + str(time.time()), ext_dist.my_local_rank, 'a+')
+
         a2a_req = ext_dist.alltoall(ly, self.n_emb_per_rank)
 
+        bm_start = time.time() # recorder
         with record_function("DLRM bottom nlp forward"):
             x = self.apply_mlp(dense_x, self.bot_l)
+        bm_end = time.time() # recorder
 
-        ly = a2a_req.wait()
+        ly = a2a_req.wait() # len(ly) = 1 -> 8
+        write2rankfile("\n\nend all-to-all transfering at" + str(time.time()), ext_dist.my_local_rank, 'a+')
         ly = list(ly)
 
+        emb_end = time.time() # recorder
+
+        in_start = time.time() # recorder
         # interactions
         with record_function("DLRM interaction forward"):
             z = self.interact_features(x, ly)
+        in_end = time.time() # recorder
 
+        tm_start = time.time() # recorder
         # top mlp
         with record_function("DLRM top nlp forward"):
             p = self.apply_mlp(z, self.top_l)
+        tm_end = time.time() # recorder
 
         # clamp output if needed
         if 0.0 < self.loss_threshold and self.loss_threshold < 1.0:
             z = torch.clamp(p, min=self.loss_threshold, max=(1.0 - self.loss_threshold))
         else:
             z = p
+
+        # print time breakdown
+        write2rankfile("\n\nbottom mlp time: " + str(bm_end - bm_start) + '\n', ext_dist.my_local_rank, 'a+')
+        write2rankfile("emb mlp time: " + str(emb_end - emb_start) + '\n', ext_dist.my_local_rank, 'a+')
+        write2rankfile("interaction mlp time: " + str(in_end - in_start) + '\n', ext_dist.my_local_rank, 'a+')
+        write2rankfile("top mlp time: " + str(tm_end - tm_start) + '\n', ext_dist.my_local_rank, 'a+')
 
         return z
 
@@ -624,7 +645,7 @@ class DLRM_Net(nn.Module):
             t_list = []
             w_list = []
             for k, emb in enumerate(self.emb_l):
-                d = torch.device("cuda:" + str(k % ndevices))
+                d = torch.device("cuda:" + str(k % ndevices)) # <-- embedding tables sharding strategy(But not distributed...)
                 t_list.append(emb.to(d))
                 if self.weighted_pooling == "learned":
                     w_list.append(Parameter(self.v_W_l[k].to(d)))

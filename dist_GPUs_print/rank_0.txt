@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.7580504end all-to-all transfering at1667303781.815831
+
+bottom mlp time: 0.7544703483581543
+emb mlp time: 1.0612475872039795
+interaction mlp time: 0.0005848407745361328
+top mlp time: 0.0013494491577148438
+begin all-to-all transfering at1667303782.4992363end all-to-all transfering at1667303782.6476343
+
+bottom mlp time: 0.14779067039489746
+emb mlp time: 0.14866256713867188
+interaction mlp time: 0.0003390312194824219
+top mlp time: 0.0017528533935546875
+begin all-to-all transfering at1667304073.5923338
+
+end all-to-all transfering at1667304074.6327229
+
+bottom mlp time: 0.7775516510009766
+emb mlp time: 1.0434317588806152
+interaction mlp time: 0.0004942417144775391
+top mlp time: 0.0011060237884521484
+begin all-to-all transfering at1667304075.2240841
+
+end all-to-all transfering at1667304075.3885124
+
+bottom mlp time: 0.16386032104492188
+emb mlp time: 0.16467571258544922
+interaction mlp time: 0.000335693359375
+top mlp time: 0.0026814937591552734
+begin all-to-all transfering at1667304220.4515262
+
+end all-to-all transfering at1667304221.3831263
+
+bottom mlp time: 0.7423710823059082
+emb mlp time: 0.9344141483306885
+interaction mlp time: 0.0004971027374267578
+top mlp time: 0.0010216236114501953
+begin all-to-all transfering at1667304222.0538857
+
+end all-to-all transfering at1667304222.0814595
+
+bottom mlp time: 0.027092695236206055
+emb mlp time: 0.027767419815063477
+interaction mlp time: 0.0003333091735839844
+top mlp time: 0.009177446365356445
+begin all-to-all transfering at1667304222.7230783
+
+end all-to-all transfering at1667304222.7241504
+
+bottom mlp time: 0.0005855560302734375
+emb mlp time: 0.0012631416320800781
+interaction mlp time: 0.011032581329345703
+top mlp time: 0.0007078647613525391
+begin all-to-all transfering at1667304223.3703647
+
+end all-to-all transfering at1667304223.3716955
+
+bottom mlp time: 0.0005309581756591797
+emb mlp time: 0.0015134811401367188
+interaction mlp time: 0.01405024528503418
+top mlp time: 0.0013568401336669922

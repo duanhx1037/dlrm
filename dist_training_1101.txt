@@ -1,0 +1,26 @@
+Unable to import mlperf_logging, Unable to import mlperf_logging,   No module named 'mlperf_logging'No module named 'mlperf_logging'
+
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Unable to import mlperf_logging,  No module named 'mlperf_logging'
+Running on 8 ranks using nccl backend
+world size: 8, current rank: 0, local rank: 0
+world size: 8, current rank: 7, local rank: 7world size: 8, current rank: 3, local rank: 3
+
+world size: 8, current rank: 4, local rank: 4
+world size: 8, current rank: 1, local rank: 1world size: 8, current rank: 5, local rank: 5
+
+world size: 8, current rank: 6, local rank: 6
+world size: 8, current rank: 2, local rank: 2
+Using 1 GPU(s)...
+time/loss/accuracy (if enabled):
+Executing distributed forward...
+Executing distributed forward...
+Finished training it 2/2 of epoch 0, 513.18 ms/it, loss 0.780913
+Testing at - 2/2 of epoch 0,
+Executing distributed forward...
+Executing distributed forward...
+ accuracy 50.684 %, best 50.684 %

@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.7672615end all-to-all transfering at1667303781.8262813
+
+bottom mlp time: 0.7907264232635498
+emb mlp time: 1.0617015361785889
+interaction mlp time: 0.0005853176116943359
+top mlp time: 0.0014452934265136719
+begin all-to-all transfering at1667303782.6452675end all-to-all transfering at1667303782.648142
+
+bottom mlp time: 0.0016984939575195312
+emb mlp time: 0.0032770633697509766
+interaction mlp time: 0.00033926963806152344
+top mlp time: 0.0028214454650878906
+begin all-to-all transfering at1667304073.6011753
+
+end all-to-all transfering at1667304074.4612827
+
+bottom mlp time: 0.6508333683013916
+emb mlp time: 0.862959623336792
+interaction mlp time: 0.0006203651428222656
+top mlp time: 0.0010726451873779297
+begin all-to-all transfering at1667304075.1877182
+
+end all-to-all transfering at1667304075.3886485
+
+bottom mlp time: 0.2004222869873047
+emb mlp time: 0.20114612579345703
+interaction mlp time: 0.00028634071350097656
+top mlp time: 0.0028595924377441406
+begin all-to-all transfering at1667304220.3593392
+
+end all-to-all transfering at1667304221.4046617
+
+bottom mlp time: 0.7929284572601318
+emb mlp time: 1.048253059387207
+interaction mlp time: 0.0005209445953369141
+top mlp time: 0.0010547637939453125
+begin all-to-all transfering at1667304221.9530172
+
+end all-to-all transfering at1667304222.081693
+
+bottom mlp time: 0.1280529499053955
+emb mlp time: 0.1289229393005371
+interaction mlp time: 0.0003345012664794922
+top mlp time: 0.01035761833190918
+begin all-to-all transfering at1667304222.6239579
+
+end all-to-all transfering at1667304222.6257608
+
+bottom mlp time: 0.0009286403656005859
+emb mlp time: 0.002102375030517578
+interaction mlp time: 0.10961699485778809
+top mlp time: 0.0009801387786865234
+begin all-to-all transfering at1667304223.3011358
+
+end all-to-all transfering at1667304223.3021748
+
+bottom mlp time: 0.0005691051483154297
+emb mlp time: 0.0012409687042236328
+interaction mlp time: 0.08376526832580566
+top mlp time: 0.002794027328491211

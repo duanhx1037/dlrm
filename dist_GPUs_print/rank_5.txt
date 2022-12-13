@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.7894964end all-to-all transfering at1667303781.8733041
+
+bottom mlp time: 0.8517594337463379
+emb mlp time: 1.087332010269165
+interaction mlp time: 0.0005300045013427734
+top mlp time: 0.0013434886932373047
+begin all-to-all transfering at1667303782.5366173end all-to-all transfering at1667303782.6472404
+
+bottom mlp time: 0.11011815071105957
+emb mlp time: 0.1108396053314209
+interaction mlp time: 0.00031065940856933594
+top mlp time: 0.0034542083740234375
+begin all-to-all transfering at1667304073.61805
+
+end all-to-all transfering at1667304074.548439
+
+bottom mlp time: 0.7163763046264648
+emb mlp time: 0.9334745407104492
+interaction mlp time: 0.0005791187286376953
+top mlp time: 0.0011110305786132812
+begin all-to-all transfering at1667304075.2142305
+
+end all-to-all transfering at1667304075.3888218
+
+bottom mlp time: 0.17413640022277832
+emb mlp time: 0.1747727394104004
+interaction mlp time: 0.0002911090850830078
+top mlp time: 0.0027544498443603516
+begin all-to-all transfering at1667304220.4402735
+
+end all-to-all transfering at1667304221.3942733
+
+bottom mlp time: 0.785477876663208
+emb mlp time: 0.9566667079925537
+interaction mlp time: 0.0004699230194091797
+top mlp time: 0.0011234283447265625
+begin all-to-all transfering at1667304222.0499036
+
+end all-to-all transfering at1667304222.081753
+
+bottom mlp time: 0.031200408935546875
+emb mlp time: 0.03213047981262207
+interaction mlp time: 0.00038170814514160156
+top mlp time: 0.010161399841308594
+begin all-to-all transfering at1667304222.693225
+
+end all-to-all transfering at1667304222.694446
+
+bottom mlp time: 0.0006399154663085938
+emb mlp time: 0.0014367103576660156
+interaction mlp time: 0.04076027870178223
+top mlp time: 0.0007367134094238281
+begin all-to-all transfering at1667304223.3509753
+
+end all-to-all transfering at1667304223.3526337
+
+bottom mlp time: 0.0005910396575927734
+emb mlp time: 0.0018744468688964844
+interaction mlp time: 0.03327584266662598
+top mlp time: 0.0024805068969726562

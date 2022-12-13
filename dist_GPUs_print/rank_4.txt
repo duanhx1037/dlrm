@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.7160213end all-to-all transfering at1667303781.883535
+
+bottom mlp time: 0.8453757762908936
+emb mlp time: 1.1710755825042725
+interaction mlp time: 0.0004572868347167969
+top mlp time: 0.0011038780212402344
+begin all-to-all transfering at1667303782.473708end all-to-all transfering at1667303782.6472387
+
+bottom mlp time: 0.17297863960266113
+emb mlp time: 0.17375802993774414
+interaction mlp time: 0.0003097057342529297
+top mlp time: 0.0034134387969970703
+begin all-to-all transfering at1667304073.6139119
+
+end all-to-all transfering at1667304074.648656
+
+bottom mlp time: 0.8157558441162109
+emb mlp time: 1.0379431247711182
+interaction mlp time: 0.0006129741668701172
+top mlp time: 0.0014116764068603516
+begin all-to-all transfering at1667304075.3869655
+
+end all-to-all transfering at1667304075.388706
+
+bottom mlp time: 0.0011091232299804688
+emb mlp time: 0.0020046234130859375
+interaction mlp time: 0.0003390312194824219
+top mlp time: 0.002953052520751953
+begin all-to-all transfering at1667304220.3865356
+
+end all-to-all transfering at1667304221.4067485
+
+bottom mlp time: 0.7910809516906738
+emb mlp time: 1.0229833126068115
+interaction mlp time: 0.0005068778991699219
+top mlp time: 0.0012001991271972656
+begin all-to-all transfering at1667304222.0019472
+
+end all-to-all transfering at1667304222.082073
+
+bottom mlp time: 0.07929039001464844
+emb mlp time: 0.0804738998413086
+interaction mlp time: 0.0003848075866699219
+top mlp time: 0.010230302810668945
+begin all-to-all transfering at1667304222.665901
+
+end all-to-all transfering at1667304222.6669536
+
+bottom mlp time: 0.0005788803100585938
+emb mlp time: 0.0012412071228027344
+interaction mlp time: 0.0682687759399414
+top mlp time: 0.0007243156433105469
+begin all-to-all transfering at1667304223.2794383
+
+end all-to-all transfering at1667304223.2808306
+
+bottom mlp time: 0.0005199909210205078
+emb mlp time: 0.0015745162963867188
+interaction mlp time: 0.10496211051940918
+top mlp time: 0.002302885055541992

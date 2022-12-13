@@ -1,0 +1,60 @@
+begin all-to-all transfering at1667303780.8862445end all-to-all transfering at1667303781.9294617
+
+bottom mlp time: 0.8952419757843018
+emb mlp time: 1.046532154083252
+interaction mlp time: 0.0005116462707519531
+top mlp time: 0.0010368824005126953
+begin all-to-all transfering at1667303782.5138652end all-to-all transfering at1667303782.6472301
+
+bottom mlp time: 0.1328730583190918
+emb mlp time: 0.13356471061706543
+interaction mlp time: 0.00031685829162597656
+top mlp time: 0.0022916793823242188
+begin all-to-all transfering at1667304073.6037629
+
+end all-to-all transfering at1667304074.6099658
+
+bottom mlp time: 0.7879767417907715
+emb mlp time: 1.009171724319458
+interaction mlp time: 0.000476837158203125
+top mlp time: 0.0011439323425292969
+begin all-to-all transfering at1667304075.2339892
+
+end all-to-all transfering at1667304075.3885279
+
+bottom mlp time: 0.15392708778381348
+emb mlp time: 0.15478229522705078
+interaction mlp time: 0.00032901763916015625
+top mlp time: 0.0027742385864257812
+begin all-to-all transfering at1667304220.470552
+
+end all-to-all transfering at1667304221.2825768
+
+bottom mlp time: 0.6677889823913574
+emb mlp time: 0.8153069019317627
+interaction mlp time: 0.0005788803100585938
+top mlp time: 0.0012042522430419922
+begin all-to-all transfering at1667304222.0801096
+
+end all-to-all transfering at1667304222.0817733
+
+bottom mlp time: 0.0011818408966064453
+emb mlp time: 0.0018575191497802734
+interaction mlp time: 0.0003135204315185547
+top mlp time: 0.009895563125610352
+begin all-to-all transfering at1667304222.734745
+
+end all-to-all transfering at1667304222.7358334
+
+bottom mlp time: 0.0005903244018554688
+emb mlp time: 0.0012941360473632812
+interaction mlp time: 0.00030231475830078125
+top mlp time: 0.0006697177886962891
+begin all-to-all transfering at1667304223.3853369
+
+end all-to-all transfering at1667304223.3863757
+
+bottom mlp time: 0.0005717277526855469
+emb mlp time: 0.001222372055053711
+interaction mlp time: 0.0018715858459472656
+top mlp time: 0.00091552734375
